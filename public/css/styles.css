@@ -47,7 +47,13 @@ p {
     text-align: justify;
 }
 
-#last-child p:last-child {
+#post p {
+    /* display: block;
+    unicode-bidi: embed; */
+    white-space: pre-wrap;
+}
+
+#post p:last-child {
     margin-bottom: 86.72px;
 }
 
